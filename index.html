@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="PowerShop es una tienda de suplementos que brinda la mejor solucion para el deportista.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>PowerShop | Inicio</title>
+</head>
+
+<body>
+  <section class="descuento">
+    <p>20% de descuento con el cupon "PowerShop2024"</p>
+  </section>
+
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="logo">
+          <img src="./assets/Logo PowerShop.png" alt="Logo ilustrativo de PowerShop" />
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a aria-current="page" href="">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/sucursales.html">Sucursales</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
+            <button class="btn btn-outline-success btnBuscar" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="iconos">
+        <img class="login" src="./assets/Icono Login.png" alt="Icono de Login" />
+        <img class="carrito" src="./assets/Carrito de compra.png" alt="Icono de Carrito de compra" />
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="tituloOculto">PowerShop</h1>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="./assets/Banner-Suple.jpg" class="d-block w-100 banner" alt="Banner de suplementos deportivos" />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./assets/Banner-Suple2.jpg" class="d-block w-100 banner"
+            alt="Segundo Banner de suplementos deportivos" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="iconosContenedor">
+      <div class="contenedor">
+        <img src=" ./assets/Icono corazon.png" alt="Icono de corazon que refiere a distribuidor oficial" />
+        <h2>Distribuidor oficial</h2>
+        <p>Más de 25 marcas</p>
+      </div>
+      <div class="contenedor">
+        <img src="./assets/Icono camion.png" alt="Icono de camion que refiere a los envios" />
+        <h2>Envíos a todo el país</h2>
+        <p>A domicilio o sucursal</p>
+      </div>
+      <div class="contenedor">
+        <img src="./assets/Icono tarjeta.png" alt="Icono de tarjeta que refiere a medios de pago" />
+        <h2>Cuotas y facilidades</h2>
+        <p>Abonando con mercadopago</p>
+      </div>
+    </section>
+  </main>
+
+  <section class="categorias">
+    <div>
+      <h2>Categorías</h2>
+    </div>
+
+    <div class="contenedorCategorias">
+      <div class="cardPersonalizada" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+        <img src="./assets/Categoria1.webp" class="card-img-top" alt="Imagen de proteina" />
+        <div class="card-body">
+          <p class="card-text">Proteínas</p>
+        </div>
+      </div>
+
+      <div class="cardPersonalizada" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+        <img src="./assets/Categoria2.webp" class="card-img-top" alt="Imagen de creatina" />
+        <div class="card-body">
+          <p class="card-text">Creatinas</p>
+        </div>
+      </div>
+
+      <div class="cardPersonalizada" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+        <img src="./assets/Categoria3.webp" class="card-img-top" alt="Imagen de aminoacidos" />
+        <div class="card-body">
+          <p class="card-text">Aminoácidos</p>
+        </div>
+      </div>
+
+      <div class="cardPersonalizada" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+        <img src="./assets/Categoria4.webp" class="card-img-top" alt="Imagen de control de peso" />
+        <div class="card-body">
+          <p class="card-text">Control de peso</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="descripcion">
+    <div class="logoDescripcion">
+      <img src="./assets/Logo PowerShop.png" alt="Logo de PowerShop" />
+    </div>
+    <div class="marcaDescripcion">
+      <h2>Descripción de la marca</h2>
+      <p>
+        En Power Shop, nos comprometemos a proporcionarte los suplementos
+        deportivos más avanzados y efectivos del mercado. Nuestro enfoque
+        inquebrantable en la excelencia se refleja en cada producto que
+        ofrecemos, ya que nos esforzamos por superar constantemente los
+        estándares de calidad, sanidad y bioseguridad más rigurosos. En Power
+        Shop, creemos que la verdadera calidad de vida está intrínsecamente
+        ligada a la salud y el bienestar. Por eso, nos esforzamos por
+        proporcionar productos que no solo mejoren el rendimiento deportivo,
+        sino que también promuevan una vida más saludable y activa en general.
+      </p>
+    </div>
+  </section>
+
+  <section class="nosotros">
+    <div class="nosotrosAcerca">
+      <h2>Acerca de nosotros</h2>
+      <p>
+        Únete a nosotros en nuestro compromiso de elevar el estándar de la
+        industria de los suplementos deportivos y juntos, alcanzaremos nuevas
+        alturas de excelencia y bienestar.
+      </p>
+    </div>
+
+    <div class="nosotrosNovedades">
+      <h2>Novedades</h2>
+      <p>
+        Deja tu correo electrónico para que nos contactemos con las últimas
+        novedades
+      </p>
+      <form class="form-floating">
+        <input type="email" class="form-control" id="floatingInputValue" placeholder="" value="" />
+        <label for="floatingInputValue">Completar con mail</label>
+      </form>
+
+      <p>Seleccione su genero</p>
+      <div class="seleccion">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
+          <label class="form-check-label" for="inlineCheckbox1">Hombre</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" />
+          <label class="form-check-label" for="inlineCheckbox2">Mujer</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" />
+          <label class="form-check-label" for="inlineCheckbox3">No responder</label>
+        </div>
+      </div>
+      <button type="button" class="btn btn-warning">Enviar</button>
+    </div>
+  </section>
+
+  <section class="medios">
+    <div class="mediosPago">
+      <h3>Medios de pago</h3>
+      <img src="./assets/Icono Visa.png" alt="Icono de tarjeta Visa" />
+      <img src="./assets/Icono Mastercard.png" alt="Icono de tarjeta MasterCard" />
+      <img src="./assets/Icono Efectivo.jpg" alt="Icono de pago en efectivo" />
+    </div>
+    <div class="mediosEnvios">
+      <h3>Medios de envio</h3>
+      <img src="./assets/Icono Correo Argentino.png" alt="Icono de Correo Argentino" />
+    </div>
+  </section>
+
+  <footer>
+    <div class="footerLeyenda">
+      <h3>2024 copyright</h3>
+      <p>Todos los derechos reservados.</p>
+    </div>
+    <div class="footerRedes">
+      <img src="./assets/Icono Instagram.png" alt="Icono de red social Instagram" />
+      <img src="./assets/Icono Facebook.png" alt="Icono de red social Facebook" />
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

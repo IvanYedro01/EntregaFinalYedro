@@ -1,0 +1,179 @@
+@media(max-width: 480px) {
+
+    .btnBuscar {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .iconos {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        img {
+            max-width: 30px;
+            height: auto;
+        }
+
+    }
+
+    .logo img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .banner {
+        height: 40vh;
+    }
+
+    .iconosContenedor {
+        font-size: 0.6rem;
+
+        img {
+            width: 40px;
+        }
+    }
+
+    .contenedor h2 {
+        font-size: 0.8rem;
+    }
+
+
+    .categorias {
+        display: flex;
+        align-items: center;
+
+        h2 {
+            font-size: 1.2rem;
+        }
+    }
+
+    .contenedorCategorias {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 200px;
+        }
+    }
+
+    .cardPersonalizada {
+        margin-bottom: 10px;
+        width: 16rem;
+    }
+
+    .logoDescripcion img,
+    .logoNosotros img {
+        width: 230px;
+        margin-right: 50px;
+    }
+
+    .logoNosotros img {
+        margin-bottom: 50px;
+    }
+
+    .descripcion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .marcaDescripcion {
+        margin-top: 30px;
+        width: 250px;
+
+    }
+
+    .texto h2,
+    .seccionComoLoHacemos h2,
+    .seccionValores h2 {
+        display: block;
+        padding: 0px 50px;
+    }
+
+    .nosotrosParrafo {
+        display: block;
+        padding: 0px 50px;
+    }
+
+    .nosotrosAcerca,
+    .nosotrosNovedades {
+        width: 100%;
+    }
+
+    .nosotrosNovedades {
+        margin-top: 40px;
+    }
+
+    .nosotros {
+        display: block;
+    }
+
+    .seleccion,
+    .medios {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mediosPago,
+    .mediosEnvios {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .footerRedes {
+        justify-content: center;
+    }
+
+    .suplemento {
+        width: 300px;
+    }
+
+    .contenedorForm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputContacto {
+        width: 80%;
+        margin-left: 15px;
+    }
+
+    .botonForm {
+        margin-left: 30px;
+    }
+
+    .nosotrosPrincipal,
+    .nuestrasSucursales {
+        margin: 0px;
+    }
+
+    .seccion1,
+    .seccion2,
+    .seccion3 {
+        padding: 10px;
+    }
+
+    .googleMaps {
+        width: 400px;
+        height: 250px;
+        border: 0px;
+    }
+
+    .sucursales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapa,
+    .accordion {
+        margin-bottom: 30px;
+    }
+
+}

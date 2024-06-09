@@ -1,0 +1,41 @@
+@import '../utilities/mixins';
+
+.principalProductos {
+    border-style: groove;
+}
+
+.tituloSuplementos {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 1rem;
+}
+
+.resultados {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.8rem;
+}
+
+.suplemento {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.orden {
+    @include flex-column();
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.contenedorCards {
+    margin: 50px 0px 100px 0px;
+}
+
+.pagina {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.card-body p {
+    line-height: 2;
+}

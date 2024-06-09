@@ -1,0 +1,48 @@
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+.form {
+    border-style: groove;
+}
+
+.tituloContacto {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 1rem;
+}
+
+.contenedorForm {
+    @include flex-row();
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.contenedorFormDatos {
+    @include flex-column();
+    justify-content: flex-start;
+    align-items: start;
+    margin: 50px;
+    font-size: 1.2rem;
+
+    p {
+        margin-top: 30px;
+    }
+}
+
+.botonForm {
+    background-color: nth($paleta-colores, 1);
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 10%;
+    color: nth($paleta-colores, 4);
+}
+
+.inputContacto {
+    margin-bottom: 50px;
+}
+
+.separador {
+    margin-right: 10px;
+}

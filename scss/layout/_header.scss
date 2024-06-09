@@ -1,0 +1,51 @@
+@import '../utilities/variables';
+
+header {
+    background-color: nth($paleta-colores, 1);
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+    ul {
+        list-style: none;
+
+        li {
+            margin: 15px;
+
+
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1rem;
+                color: nth($paleta-colores, 4);
+
+                &:hover {
+                    color: nth($paleta-colores, 3);
+                }
+
+                &:active {
+                    color: nth($paleta-colores, 3);
+                }
+            }
+
+
+        }
+    }
+}
+
+.logo img {
+    width: 200px;
+}
+
+.btnBuscar {
+    border-radius: 10%;
+    width: 100px;
+    background-color: nth($paleta-colores, 4);
+    color: nth($paleta-colores, 3);
+}
+
+.btnBuscar:hover {
+    background-color: nth($paleta-colores, 1);
+    color: nth($paleta-colores, 4);
+}

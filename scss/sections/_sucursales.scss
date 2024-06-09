@@ -1,0 +1,27 @@
+@import '../utilities/mixins';
+
+.tituloSucursales {
+    text-align: center;
+    margin: 20px 0px 100px 0px;
+    font-size: 1rem;
+}
+
+.nuestrasSucursales {
+    margin: 0px 400px 100px 400px;
+}
+
+.sucursales {
+    @include flex-row();
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.googleMaps {
+    width: 600px;
+    height: 450px;
+    border: 0px;
+}
+
+.locacion h3 {
+    text-transform: uppercase;
+}

@@ -1,0 +1,591 @@
+@charset "UTF-8";
+@keyframes slidein {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(10%);
+  }
+}
+.logoDescripcion {
+  animation: 0.9s linear 1s infinite alternate slidein;
+}
+
+.descuento {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 10px;
+}
+
+.tituloOculto {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.iconos img {
+  width: 50px;
+  margin: 2px;
+}
+
+.banner {
+  width: 100%;
+  height: 80vh;
+}
+
+.iconosContenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+.iconosContenedor img {
+  width: 60px;
+}
+
+.contenedor h2 {
+  font-size: 1.2rem;
+}
+
+.categorias {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffda00;
+  padding: 15px;
+  font-size: 1rem;
+}
+.categorias h2 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.contenedorCategorias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.contenedorCategorias img {
+  width: 265px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+.descripcion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 100px;
+}
+.descripcion p {
+  line-height: 2;
+}
+
+.logoDescripcion img {
+  width: 500px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.marcaDescripcion {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ebebeb;
+  padding: 100px;
+  font-size: 1rem;
+}
+
+.nosotrosAcerca {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  line-height: 2;
+}
+.nosotrosAcerca h2 {
+  color: black;
+}
+
+.nosotrosNovedades {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20%;
+  line-height: 1.5;
+}
+.nosotrosNovedades h2 {
+  color: black;
+}
+.nosotrosNovedades p {
+  line-height: 2;
+}
+
+.seleccion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.principalProductos {
+  border-style: groove;
+}
+
+.tituloSuplementos {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 1rem;
+}
+
+.resultados {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.8rem;
+}
+
+.suplemento {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.orden {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.contenedorCards {
+  margin: 50px 0px 100px 0px;
+}
+
+.pagina {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.card-body p {
+  line-height: 2;
+}
+
+.form {
+  border-style: groove;
+}
+
+.tituloContacto {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 1rem;
+}
+
+.contenedorForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 120px;
+}
+
+.contenedorFormDatos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  margin: 50px;
+  font-size: 1.2rem;
+}
+.contenedorFormDatos p {
+  margin-top: 30px;
+}
+
+.botonForm {
+  background-color: #ffda00;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 10%;
+  color: black;
+}
+
+.inputContacto {
+  margin-bottom: 50px;
+}
+
+.separador {
+  margin-right: 10px;
+}
+
+.nosotrosPrincipal {
+  margin: 0px 400px 100px 400px;
+  font-size: 1rem;
+}
+
+.tituloNosotros {
+  text-align: center;
+  margin: 20px 0px 100px 0px;
+  font-size: 1rem;
+}
+
+.nosotrosParrafo {
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+.nosotrosParrafo h3 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+.nosotrosParrafo p {
+  line-height: 2;
+}
+
+.seccionComoLoHacemos,
+.seccionValores {
+  margin-top: 100px;
+  font-size: 0.9rem;
+}
+
+.logoNosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.logoNosotros img {
+  width: 500px;
+  border-radius: 15px;
+  margin-top: 200px;
+}
+
+.tituloSucursales {
+  text-align: center;
+  margin: 20px 0px 100px 0px;
+  font-size: 1rem;
+}
+
+.nuestrasSucursales {
+  margin: 0px 400px 100px 400px;
+}
+
+.sucursales {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.googleMaps {
+  width: 600px;
+  height: 450px;
+  border: 0px;
+}
+
+.locacion h3 {
+  text-transform: uppercase;
+}
+
+header {
+  background-color: #ffda00;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  margin: 15px;
+}
+header ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  color: black;
+}
+header ul li a:hover {
+  color: white;
+}
+header ul li a:active {
+  color: white;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.btnBuscar {
+  border-radius: 10%;
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+
+.btnBuscar:hover {
+  background-color: #ffda00;
+  color: black;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+}
+
+.footerLeyenda {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-size: 0.7rem;
+}
+.footerLeyenda h3 {
+  font-size: 0.8rem;
+}
+
+.footerRedes {
+  display: flex;
+  flex-direction: row;
+}
+.footerRedes img {
+  width: 40px;
+  margin: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62, 5%;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url(../assets/Poppins-SemiBold.ttf);
+}
+.cardPersonalizada {
+  border-radius: 10%;
+  background-color: #ebebeb;
+  width: 18rem;
+}
+.cardPersonalizada:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 16px rgba(0, 0, 0, 0.2);
+}
+
+.accordion-button {
+  position: static;
+}
+
+.tamañoAcordion {
+  width: 400px;
+}
+
+.medios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.mediosPago,
+.mediosEnvios {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+}
+.mediosPago img,
+.mediosEnvios img {
+  width: 60px;
+}
+.mediosPago h3,
+.mediosEnvios h3 {
+  font-size: 1rem;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(10%);
+  }
+}
+.logoDescripcion {
+  animation: 0.9s linear 1s infinite alternate slidein;
+}
+
+@media (max-width: 480px) {
+  .btnBuscar {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .iconos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .iconos img {
+    max-width: 30px;
+    height: auto;
+  }
+  .logo img {
+    max-width: 100px;
+    height: auto;
+  }
+  .banner {
+    height: 40vh;
+  }
+  .iconosContenedor {
+    font-size: 0.6rem;
+  }
+  .iconosContenedor img {
+    width: 40px;
+  }
+  .contenedor h2 {
+    font-size: 0.8rem;
+  }
+  .categorias {
+    display: flex;
+    align-items: center;
+  }
+  .categorias h2 {
+    font-size: 1.2rem;
+  }
+  .contenedorCategorias {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedorCategorias img {
+    width: 200px;
+  }
+  .cardPersonalizada {
+    margin-bottom: 10px;
+    width: 16rem;
+  }
+  .logoDescripcion img,
+  .logoNosotros img {
+    width: 230px;
+    margin-right: 50px;
+  }
+  .logoNosotros img {
+    margin-bottom: 50px;
+  }
+  .descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .marcaDescripcion {
+    margin-top: 30px;
+    width: 250px;
+  }
+  .texto h2,
+  .seccionComoLoHacemos h2,
+  .seccionValores h2 {
+    display: block;
+    padding: 0px 50px;
+  }
+  .nosotrosParrafo {
+    display: block;
+    padding: 0px 50px;
+  }
+  .nosotrosAcerca,
+  .nosotrosNovedades {
+    width: 100%;
+  }
+  .nosotrosNovedades {
+    margin-top: 40px;
+  }
+  .nosotros {
+    display: block;
+  }
+  .seleccion,
+  .medios {
+    display: flex;
+    flex-direction: column;
+  }
+  .mediosPago,
+  .mediosEnvios {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    display: block;
+  }
+  .footerRedes {
+    justify-content: center;
+  }
+  .suplemento {
+    width: 300px;
+  }
+  .contenedorForm {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputContacto {
+    width: 80%;
+    margin-left: 15px;
+  }
+  .botonForm {
+    margin-left: 30px;
+  }
+  .nosotrosPrincipal,
+  .nuestrasSucursales {
+    margin: 0px;
+  }
+  .seccion1,
+  .seccion2,
+  .seccion3 {
+    padding: 10px;
+  }
+  .googleMaps {
+    width: 400px;
+    height: 250px;
+    border: 0px;
+  }
+  .sucursales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mapa,
+  .accordion {
+    margin-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

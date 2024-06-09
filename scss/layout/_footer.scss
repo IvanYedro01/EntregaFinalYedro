@@ -1,0 +1,30 @@
+@import '../utilities/mixins';
+@import '../utilities/variables';
+
+footer {
+    @include flex-row();
+    justify-content: space-around;
+    background-color: nth($paleta-colores, 4);
+    color: nth($paleta-colores, 3);
+    padding-top: 50px;
+}
+
+.footerLeyenda {
+    @include flex-column();
+    width: 100%;
+    align-items: center;
+    font-size: 0.7rem;
+
+    h3 {
+        font-size: 0.8rem;
+    }
+}
+
+.footerRedes {
+    @include flex-row();
+
+    img {
+        width: 40px;
+        margin: 10px;
+    }
+}

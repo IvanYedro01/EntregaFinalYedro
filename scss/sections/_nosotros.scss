@@ -1,0 +1,44 @@
+@import '../utilities/mixins';
+
+.nosotrosPrincipal {
+    margin: 0px 400px 100px 400px;
+    font-size: 1rem;
+}
+
+.tituloNosotros {
+    text-align: center;
+    margin: 20px 0px 100px 0px;
+    font-size: 1rem;
+}
+
+.nosotrosParrafo {
+    margin-top: 30px;
+    font-size: 0.9rem;
+
+    h3 {
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-size: 0.9rem;
+    }
+
+    p {
+        line-height: 2;
+    }
+}
+
+.seccionComoLoHacemos,
+.seccionValores {
+    margin-top: 100px;
+    font-size: 0.9rem;
+}
+
+.logoNosotros {
+    @include flex-row();
+    justify-content: center;
+
+    img {
+        width: 500px;
+        border-radius: 15px;
+        margin-top: 200px;
+    }
+}

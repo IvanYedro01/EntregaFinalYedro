@@ -1,0 +1,148 @@
+@import '../utilities/mixins';
+@import '../utilities/variables';
+@import '../animacion/keyframe';
+
+.descuento {
+    background-color: nth($paleta-colores, 4);
+    color: nth($paleta-colores, 3);
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+
+.tituloOculto {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+
+.iconos {
+    @include flex-row();
+    align-items: end;
+
+    img {
+        width: 50px;
+        margin: 2px;
+    }
+}
+
+.banner {
+    width: 100%;
+    height: 80vh;
+}
+
+.iconosContenedor {
+    @include flex-row();
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 0.8rem;
+
+    img {
+        width: 60px;
+    }
+}
+
+.contenedor h2 {
+    font-size: 1.2rem;
+}
+
+.categorias {
+    @include flex-column();
+    background-color: nth($paleta-colores, 1);
+    padding: 15px;
+    font-size: 1rem;
+
+    h2 {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+}
+
+.contenedorCategorias {
+    @include flex-row();
+    justify-content: space-around;
+    text-align: center;
+
+    img {
+        width: 265px;
+        height: 200px;
+        margin: 10px;
+        border-radius: 10%;
+    }
+}
+
+.descripcion {
+    @include flex-row();
+    justify-content: space-around;
+    margin: 20px;
+    padding: 100px;
+
+    p {
+        line-height: 2;
+    }
+}
+
+
+
+.logoDescripcion img {
+    width: 500px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.marcaDescripcion {
+    width: 40%;
+    @include flex-column();
+    justify-content: space-around;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.nosotros {
+    @include flex-row();
+    justify-content: space-between;
+    background-color: nth($paleta-colores, 2);
+    padding: 100px;
+    font-size: 1rem;
+}
+
+.nosotrosAcerca {
+    @include flex-column();
+    width: 20%;
+    line-height: 2;
+
+    h2 {
+        color: nth($paleta-colores, 4);
+    }
+}
+
+.nosotrosNovedades {
+    @include flex-column();
+    justify-content: space-around;
+    width: 20%;
+    line-height: 1.5;
+
+    h2 {
+        color: nth($paleta-colores, 4);
+    }
+
+    p {
+        line-height: 2;
+    }
+}
+
+
+
+.seleccion {
+    @include flex-row();
+    justify-content: space-around;
+}

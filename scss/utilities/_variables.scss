@@ -1,0 +1,5 @@
+$paleta-colores: #ffda00, #ebebeb, white, black;
+
+@function obtener-color($index) {
+    @return nth($paleta-colores, $index);
+}
