@@ -116,7 +116,7 @@
 .nosotros {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #ebebeb;
   padding: 100px;
   font-size: 1rem;
@@ -125,7 +125,7 @@
 .nosotrosAcerca {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 30%;
   line-height: 2;
 }
 .nosotrosAcerca h2 {
@@ -136,7 +136,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 20%;
+  width: 30%;
   line-height: 1.5;
 }
 .nosotrosNovedades h2 {
@@ -447,6 +447,145 @@ html {
   animation: 0.9s linear 1s infinite alternate slidein;
 }
 
+@media (max-width: 1280px) {
+  .logoDescripcion img,
+  .logoNosotros img {
+    width: 230px;
+    margin-right: 50px;
+  }
+  .logoNosotros img {
+    margin-bottom: 50px;
+  }
+  .descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 990px) {
+  .iconos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .iconos img {
+    max-width: 30px;
+    height: auto;
+  }
+  .logo img {
+    max-width: 100px;
+    height: auto;
+  }
+  .contenedorCategorias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedorCategorias img {
+    width: 200px;
+  }
+  .cardPersonalizada {
+    margin-bottom: 10px;
+    width: 16rem;
+  }
+  .logoDescripcion img,
+  .logoNosotros img {
+    width: 230px;
+    margin-right: 50px;
+  }
+  .logoNosotros img {
+    margin-bottom: 50px;
+  }
+  .descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .marcaDescripcion {
+    margin-top: 30px;
+    width: 250px;
+  }
+  .texto h2,
+  .seccionComoLoHacemos h2,
+  .seccionValores h2 {
+    display: block;
+    padding: 0px 50px;
+  }
+  .nosotrosParrafo {
+    display: block;
+    padding: 0px 50px;
+  }
+  .nosotrosAcerca,
+  .nosotrosNovedades {
+    width: 100%;
+  }
+  .nosotrosNovedades {
+    margin-top: 40px;
+  }
+  .nosotros {
+    display: block;
+  }
+  .seleccion,
+  .medios {
+    display: flex;
+    flex-direction: column;
+  }
+  .mediosPago,
+  .mediosEnvios {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    display: block;
+  }
+  .footerRedes {
+    justify-content: center;
+  }
+  .suplemento {
+    width: 300px;
+  }
+  .contenedorForm {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputContacto {
+    width: 80%;
+    margin-left: 15px;
+  }
+  .botonForm {
+    margin-left: 30px;
+  }
+  .nosotrosPrincipal,
+  .nuestrasSucursales {
+    margin: 0px;
+  }
+  .seccion1,
+  .seccion2,
+  .seccion3 {
+    padding: 10px;
+  }
+  .googleMaps {
+    width: 400px;
+    height: 250px;
+    border: 0px;
+  }
+  .sucursales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mapa,
+  .accordion {
+    margin-bottom: 30px;
+  }
+  .tamañoAcordion {
+    width: 300px;
+  }
+  .googleMaps {
+    width: 300px;
+  }
+}
 @media (max-width: 480px) {
   .btnBuscar {
     width: 100%;
@@ -476,6 +615,12 @@ html {
   }
   .contenedor h2 {
     font-size: 0.8rem;
+  }
+  .formulario-contacto-bootstrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
   }
   .categorias {
     display: flex;
@@ -585,6 +730,12 @@ html {
   .mapa,
   .accordion {
     margin-bottom: 30px;
+  }
+  .tamañoAcordion {
+    width: 300px;
+  }
+  .googleMaps {
+    width: 300px;
   }
 }
 
