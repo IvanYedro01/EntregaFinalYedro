@@ -15,6 +15,16 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .contenedorCategorias{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .suplemento{
+        width: 300px;
+    }
 }
 
 
@@ -242,18 +252,18 @@
         flex-direction: column;
 
         img {
-            width: 200px;
+            width: 170px;
         }
     }
 
     .cardPersonalizada {
         margin-bottom: 10px;
-        width: 16rem;
+        width: 10rem;
     }
 
     .logoDescripcion img,
     .logoNosotros img {
-        width: 230px;
+        width: 150px;
         margin-right: 50px;
     }
 
@@ -328,13 +338,22 @@
         flex-direction: column;
     }
 
+    .contenedorFormDatos{
+        font-size: 0.8rem;
+    }
+
+    .formulario-contacto-bootstrap{
+        font-size: 0.8rem;
+    }
+
     .inputContacto {
         width: 80%;
         margin-left: 15px;
     }
 
     .botonForm {
-        margin-left: 30px;
+        margin-left: 20px;
+        width: 150px;
     }
 
     .nosotrosPrincipal,
@@ -349,7 +368,7 @@
     }
 
     .googleMaps {
-        width: 400px;
+        width: 200px;
         height: 250px;
         border: 0px;
     }
@@ -366,7 +385,7 @@
     }
 
     .tamañoAcordion {
-        width: 300px;
+        width: 200px;
     }
 
     .googleMaps {
